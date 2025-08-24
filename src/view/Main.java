@@ -1,5 +1,7 @@
 package view;
 
+import javax.swing.JOptionPane;
+
 import controller.DistroController;
 
 public class Main {
@@ -9,6 +11,6 @@ public class Main {
 
 	public static void main(String[] args) {
 		DistroController distro = new DistroController();
-		System.out.println(distro.exibeDistro());
+		JOptionPane.showMessageDialog(null, distro.exibeDistro(), "Distro Checker", 1);
 	}
 }
