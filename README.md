@@ -29,6 +29,8 @@ A classe Main.java deve ter um chamado para a exibição das informações
 
 ### Dica:
 
-O comando para exibir as propriedades de uma distribuição Linux é: ```cat /etc/os-release```
+O comando para exibir as propriedades de uma distribuição Linux é: 
+
+``cat /etc/os-release``
 
 ---
